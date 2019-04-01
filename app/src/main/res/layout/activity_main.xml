@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_using_async_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mUseAsyncTask"
+        android:text="@string/download_image_using_AsyncTask" />
+
+    <Button
+        android:id="@+id/btn_using_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mUseService"
+        android:text="@string/download_image_using_Service" />
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/iv_image"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

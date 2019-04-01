@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AsyncTaskNServiceExercise</string>
+    <string name="download_image_using_AsyncTask">Download image using AsyncTask</string>
+    <string name="download_image_using_Service">Download image using Service</string>
+</resources>
